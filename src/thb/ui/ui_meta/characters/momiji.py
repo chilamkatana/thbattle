@@ -38,6 +38,27 @@ class Momiji:
     )
 
 
+class Momiji2:
+    # Character
+    char_name = u'犬走椛'
+    port_image = 'thb-portrait-momiji'
+    figure_image = 'thb-figure-momiji'
+    miss_sound_effect = 'thb-cv-momiji_miss'
+    description = (
+        u'|DB山中的千里眼 犬走椛 体力：4|r\n'
+        u'\n'
+        u'|G缴械|r：你使用的|G弹幕|r或|G弹幕战|r造成伤害后，你可以观看其手牌，并将其中任意数量的|G弹幕|r和符卡牌暂时移出游戏。\n'
+        u'\n'
+        u'|G哨戒|r：一名你攻击范围内的其他角色的出牌阶段开始时，你可以对其使用一张|G弹幕|r。\n'
+        u'\n'
+        u'|G千里眼|r：|B锁定技|r，若你在一名其他角色的攻击内，则该角色视为在你攻击范围内。\n'
+        u'\n'
+        u'|B*|r 暂时移出游戏：将牌移出游戏，直到该角色的回合结束阶段，其获得这些被移出游戏的牌。\n'
+        u'\n'
+        u'|DB（画师：和茶，CV：简翎）|r'
+    )
+
+
 class Sentry:
     # Skill
     name = u'哨戒'

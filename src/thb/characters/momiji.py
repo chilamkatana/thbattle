@@ -241,3 +241,10 @@ class Momiji(Character):
     # eventhandlers_required = [SentryHandler, DisarmHandler, TelegnosisHandler]
     eventhandlers_required = [SentryHandler, DisarmHandler, RabiesBiteHandler]
     maxlife = 4
+
+
+@register_character_to('common')
+class Momiji2(Character):
+    skills = [Disarm, Sentry, Telegnosis]
+    eventhandlers_required = [SentryHandler, DisarmHandler, TelegnosisHandler]
+    maxlife = 4
